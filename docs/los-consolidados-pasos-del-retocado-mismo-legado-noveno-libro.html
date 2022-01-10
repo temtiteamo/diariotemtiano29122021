@@ -1,0 +1,38 @@
+<html lang="es">
+
+<head>
+
+    <title></title>
+    <meta charset="UTF-8">
+    <!--Tipo de letra-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+
+
+<style>body{background-color:#F2F2F2;color:#222;font:13px/1 Lato,sans-serif;margin:0 auto}#wrap{bottom:50%;margin-bottom:-0.5em;position:fixed;text-align:center;width:100%}h1{font-size:18px;font-weight:normal}a{color:#1155CC;text-decoration:none}span{font-weight:bold}#footer{bottom:0px;position:fixed;width:100%}ul{background-color:#FFF;border-top:1px solid #E4E4E4;color:#777;list-style-type:none;line-height:1.5em;margin:0 -30px ;padding:5 5 5 15px;position:relative}li{padding-left:45px;padding-right:15px;}</style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<section class="home-section-full home-section">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    Swal.fire({
+      title: 'Error',
+      html: 'Las ediciones viejas de Diario Temtiano ya no están disponibles en linea, lo cual incluye a esta. <p> Por favor, dirigete a <a href="https://temtiteamo.github.io/diariotemtiano">https://temtiteamo.github.io/diariotemtiano</a> para acceder a su versión actual.',
+      icon: 'error',
+      showConfirmButton: true,
+      timer: false,
+      }).then(() => {
+        window.location = 'https://temtiteamo.github.io/diariotemtiano'
+      })
+  </script>
+</section>
+
+ <div id=wrap><h1><span>Esta edición</span> ha sido removida</h1></div><div id=footer><ul><li>Para ir a la edición más reciente de Diario Temtiano, pulsa el siguiente enlace, un solo click: <a href="https://temtiteamo.github.io/diariotemtiano">https://temtiteamo.github.io/diariotemtiano</a>.</ul></div>
+ 
+
+
+</body>
